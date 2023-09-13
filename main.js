@@ -6,6 +6,7 @@ function validaForm() {
         alert("O valor de ganhos deve ser maior que o de perdas!");
         return false;
     } else {
+        alert("Valores recebidos com sucesso!");
         return true;
     }
 }
